@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    flex-wrap: wrap;
+    width:100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    color:rgb(8, 8, 56);
+    text-decoration: none;
+    padding:0.5rem; 
+    border-radius: 7px;
+}
+a:hover{
+    color:black;
+    background-color: #fff;
+}
+button{
+    background-color:blue;
+    color:#fff;
+}
+button:hover{
+    background-color: #fff;
+    color:blue;
+}
+h3, h2, h1{
+    font-family:"Raleway", sans-serif;
+}
+/****HEADER****/
+header{
+    background-color: hsla(270, 50%, 76%, 0.148);
+
+}
+header a:hover{
+    border:1px solid black;
+}
+header nav{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    padding:4rem 2rem;
+}
+#navbar ul{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+#navbar li{
+    margin-right:3rem;
+}
+
+#main{
+    padding:0rem 4rem 4rem 4rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: hsla(270, 50%, 76%, 0.148);   
+}
+#main .info{
+    /* width: 550px;
+    height: 400px; */
+    width:70%;
+    height:auto;
+}
+#main .info h1{
+    line-height:3rem;
+}
+#main .info p{
+    margin-top:1.7rem;
+    line-height:1.7rem;
+    opacity:70%;
+}
+.form form{
+    margin-top:1.25rem;
+}
+.form input{
+    padding:0.8rem;
+    padding-right:8rem;
+}
+.form button{
+    padding:0.8rem 4rem;
+    margin-left:0.7rem;
+}
+#main img{
+    max-width:100%;
+    height: auto;
+    
+    /* margin-left:10rem; */
+}
+/*******ORTA*******/
+
+#orta{
+    background-color: hsla(270, 50%, 76%, 0.249);
+    padding:4rem;
+    display:flex;
+    justify-content: space-between;
+}
+#orta .orta-info{
+    width:70%;
+    height:auto;
+}
+.orta-info h1, h2{
+    font-size:35px;
+    margin-bottom:2rem;
+}
+.orta-info p{
+    margin-bottom:1.25rem;
+    opacity:70%;
+}
+#orta .orta-info #orta-link{
+    display:flex;
+}
+#orta .orta-info #orta-link a{
+    text-decoration:underline ;
+    color:rgb(36, 178, 130);
+}
+#orta .orta-info #card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin:3rem 0rem;
+    padding:2rem;
+    border-radius: 7px;
+    background-color: hsla(269, 27%, 45%, 0.147);
+}
+#orta .orta-info #card #card-icon{
+    margin-bottom:1.25rem;
+}
+
+#orta .orta-info #card #card-alt{
+    display:flex;
+    justify-content:start;
+    align-items:center;
+}
+
+#orta .orta-info #card #card-alt img{
+    margin-right:2rem;
+    width:70px;
+    height:70px;
+    border-radius:100px; 
+}
+#orta img{
+    max-width: 100%;
+    height: auto;
+}
+#card-alt-yazi{
+    margin-top:1.2rem;
+}
+#orta-img{
+    max-width: 100%;
+    height:auto;
+    margin-left:10rem;
+
+}
+/******ORTA-2*******/
+#orta-2{
+    
+    display:flex;
+    justify-content: space-between;
+    padding:5rem 4rem;
+    align-items:center;
+    background-color: hsla(269, 20%, 34%, 0.6);
+    color:#fff
+    
+}
+#orta-2 .orta-info{
+    width:500px;
+    height:150px; 
+}
+#orta-2 .orta-info p{
+    line-height:1.8rem;
+}
+#orta-2 .form{
+    margin-right:6rem;
+}
+#orta-2 .form input{
+    padding-right:15rem;
+}
+#orta-2 .form button{
+    margin-top:1rem;
+}
+/* FOOTER */
+footer{
+    background-color:hsla(268, 42%, 22%, 0.836);
+    color:#fff;
+    padding:4rem 4rem; 
+}
+#contact{
+    display:flex;
+    margin-right:5rem;
+    justify-content: space-around;
+    align-items:start;
+    list-style: none;
+}
+#contact a{
+    color:#fff;
+}
+#contact a:hover{
+    color:black;
+    background-color: #fff;
+}
+#alt-logo{
+    margin-left:4rem;
+}
+.icons{
+    display:flex;
+    margin:2rem;
+}
+.icons p{
+    max-width:325px;
+}
+.icons img{
+    padding-right:1rem;
+}
+.list{
+    margin-right:4rem;
+}
+
+.list li{
+    text-decoration: none;
+    list-style: none;
+    line-height: 2rem;
+    padding:0.5rem;
+}
+.list a{
+    padding:0.5rem;
+}
+.list a:hover{
+    color:black;
+    background:#fff;
+    border-radius:7px;
+}
+.mini-icons{
+    font-size:2rem;
+}
+.mini-icons a{
+    margin-right:1rem;
+}
+@media  screen (max-width:375px){
+    #main{
+        padding:4rem;
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    #main .info{
+        /* width: 550px;
+        height: 400px; */
+        width: 100%;
+        height: auto;
+        background-color: pink;
+    } 
+
+}
